@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex">
+
+  <section class="search-component">
+        <div class="input-component">
+            <svg class="search-icon" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.1667 24.0833C19.6435 24.0833 24.0833 19.6435 24.0833 14.1667C24.0833 8.68984 19.6435 4.25 14.1667 4.25C8.68984 4.25 4.25 8.68984 4.25 14.1667C4.25 19.6435 8.68984 24.0833 14.1667 24.0833Z" stroke="#2B417B" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M29.75 29.75L21.25 21.25" stroke="#2B417B" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <input type="text" placeholder="Search">
+        </div>
+      <div class="categories">
+          <article class="category category-violet">
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.16667 22H5.5L22 5.5L38.5 22H34.8333" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.16663 22V34.8333C9.16663 35.8058 9.55293 36.7384 10.2406 37.4261C10.9282 38.1137 11.8608 38.5 12.8333 38.5H31.1666C32.1391 38.5 33.0717 38.1137 33.7594 37.4261C34.447 36.7384 34.8333 35.8058 34.8333 34.8333V22" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.5 38.5V27.5C16.5 26.5275 16.8863 25.5949 17.5739 24.9073C18.2616 24.2196 19.1942 23.8333 20.1667 23.8333H23.8333C24.8058 23.8333 25.7384 24.2196 26.4261 24.9073C27.1137 25.5949 27.5 26.5275 27.5 27.5V38.5" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Property</span>
+          </article>
+          <article class="category category-blue">
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 20.1667V11M9.16667 31.1667H5.5V20.1667L9.16667 11H25.6667L33 20.1667H34.8333C35.8058 20.1667 36.7384 20.553 37.4261 21.2406C38.1137 21.9282 38.5 22.8609 38.5 23.8333V31.1667H34.8333H9.16667ZM27.5 31.1667H16.5H27.5ZM5.5 20.1667H33H5.5Z" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12.8334 34.8333C14.8584 34.8333 16.5 33.1917 16.5 31.1667C16.5 29.1416 14.8584 27.5 12.8334 27.5C10.8083 27.5 9.16669 29.1416 9.16669 31.1667C9.16669 33.1917 10.8083 34.8333 12.8334 34.8333Z" fill="white" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M31.1667 34.8333C33.1917 34.8333 34.8333 33.1917 34.8333 31.1667C34.8333 29.1416 33.1917 27.5 31.1667 27.5C29.1416 27.5 27.5 29.1416 27.5 31.1667C27.5 33.1917 29.1416 34.8333 31.1667 34.8333Z" fill="white" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Cars</span>
+          </article>
+          <article class="category category-red">
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.66669 36.6667C4.08317 37.2469 4.63464 37.7171 5.27346 38.0365C5.91229 38.3559 6.61928 38.515 7.33335 38.5C8.04743 38.515 8.75441 38.3559 9.39324 38.0365C10.0321 37.7171 10.5835 37.2469 11 36.6667C11.4165 36.0865 11.968 35.6163 12.6068 35.2969C13.2456 34.9775 13.9526 34.8184 14.6667 34.8334C15.3808 34.8184 16.0877 34.9775 16.7266 35.2969C17.3654 35.6163 17.9169 36.0865 18.3334 36.6667C18.7498 37.2469 19.3013 37.7171 19.9401 38.0365C20.579 38.3559 21.2859 38.515 22 38.5C22.7141 38.515 23.4211 38.3559 24.0599 38.0365C24.6987 37.7171 25.2502 37.2469 25.6667 36.6667C26.0832 36.0865 26.6346 35.6163 27.2735 35.2969C27.9123 34.9775 28.6193 34.8184 29.3334 34.8334C30.0474 34.8184 30.7544 34.9775 31.3932 35.2969C32.0321 35.6163 32.5835 36.0865 33 36.6667C33.4165 37.2469 33.968 37.7171 34.6068 38.0365C35.2456 38.3559 35.9526 38.515 36.6667 38.5C37.3808 38.515 38.0877 38.3559 38.7266 38.0365C39.3654 37.7171 39.9169 37.2469 40.3334 36.6667" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.33333 33L5.5 27.5H38.5L36.6667 33" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M20.1667 22H33L20.1667 5.5V22Z" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14.6667 12.8333L11 22" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Boat</span>
+          </article>
+          <article class="category category-green">
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.16663 34.8333C12.2042 34.8333 14.6666 32.3709 14.6666 29.3333C14.6666 26.2957 12.2042 23.8333 9.16663 23.8333C6.12906 23.8333 3.66663 26.2957 3.66663 29.3333C3.66663 32.3709 6.12906 34.8333 9.16663 34.8333Z" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M34.8334 34.8333C37.8709 34.8333 40.3334 32.3709 40.3334 29.3333C40.3334 26.2957 37.8709 23.8333 34.8334 23.8333C31.7958 23.8333 29.3334 26.2957 29.3334 29.3333C29.3334 32.3709 31.7958 34.8333 34.8334 34.8333Z" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.75 25.6666L21.0833 18.3333M13.75 25.6666H22.9167L30.25 18.3333H11L13.75 25.6666Z" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M23.8334 11H27.5L30.25 16.5L33.9167 23.8333" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Bike</span>
+          </article>
+          <article class="category category-orange">
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.5 9.16669V12.8334" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M27.5 20.1667V23.8334" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M27.5 31.1667V34.8334" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.16667 9.16669H34.8333C35.8058 9.16669 36.7384 9.553 37.4261 10.2406C38.1137 10.9283 38.5 11.8609 38.5 12.8334V18.3334C37.5275 18.3334 36.5949 18.7197 35.9073 19.4073C35.2196 20.0949 34.8333 21.0276 34.8333 22C34.8333 22.9725 35.2196 23.9051 35.9073 24.5927C36.5949 25.2804 37.5275 25.6667 38.5 25.6667V31.1667C38.5 32.1391 38.1137 33.0718 37.4261 33.7594C36.7384 34.447 35.8058 34.8334 34.8333 34.8334H9.16667C8.19421 34.8334 7.26158 34.447 6.57394 33.7594C5.88631 33.0718 5.5 32.1391 5.5 31.1667V25.6667C6.47246 25.6667 7.40509 25.2804 8.09273 24.5927C8.78036 23.9051 9.16667 22.9725 9.16667 22C9.16667 21.0276 8.78036 20.0949 8.09273 19.4073C7.40509 18.7197 6.47246 18.3334 5.5 18.3334V12.8334C5.5 11.8609 5.88631 10.9283 6.57394 10.2406C7.26158 9.553 8.19421 9.16669 9.16667 9.16669" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Ticket</span>
+          </article>
+          <article class="category category-cian">
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M34.8333 16.5H16.5C14.4749 16.5 12.8333 18.1416 12.8333 20.1667V31.1667C12.8333 33.1917 14.4749 34.8333 16.5 34.8333H34.8333C36.8584 34.8333 38.5 33.1917 38.5 31.1667V20.1667C38.5 18.1416 36.8584 16.5 34.8333 16.5Z" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M25.6667 29.3333C27.6917 29.3333 29.3333 27.6917 29.3333 25.6667C29.3333 23.6416 27.6917 22 25.6667 22C23.6416 22 22 23.6416 22 25.6667C22 27.6917 23.6416 29.3333 25.6667 29.3333Z" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M31.1667 16.5V12.8334C31.1667 11.8609 30.7804 10.9283 30.0927 10.2406C29.4051 9.553 28.4725 9.16669 27.5 9.16669H9.16667C8.19421 9.16669 7.26158 9.553 6.57394 10.2406C5.88631 10.9283 5.5 11.8609 5.5 12.8334V23.8334C5.5 24.8058 5.88631 25.7384 6.57394 26.4261C7.26158 27.1137 8.19421 27.5 9.16667 27.5H12.8333" stroke="#2B417B" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Economy</span>
+          </article>
+      </div>
+  </section>
+
+</body>
+</html>
